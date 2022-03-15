@@ -1,0 +1,24 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 32px;
+}
+
+.lowerNav {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 32px;
+}
+
+.social {
+  background-color: #F5717F;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.socialContainer {
+  padding-bottom: 32px;
+}

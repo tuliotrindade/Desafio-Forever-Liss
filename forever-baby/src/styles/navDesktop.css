@@ -1,0 +1,7 @@
+.upperNav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #F5717F;
+  padding-top: 18px;
+  padding-bottom: 16px;
+}
