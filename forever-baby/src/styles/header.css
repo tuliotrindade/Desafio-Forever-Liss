@@ -1,6 +1,7 @@
 header {
 	display: flex;
   justify-content: space-around;
+  align-content: stretch;
   align-items: center;
 	background-color: #F7B094;
 }

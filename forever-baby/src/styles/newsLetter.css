@@ -7,3 +7,20 @@
   padding-top: 36px;
   padding-bottom: 35px;
 }
+
+@media only screen and (max-width: 425px) {
+  .title {
+    Font-family: 'Roboto';
+    Font-style: Bold;
+    font-size: 22px;
+    Line-height: 26px;
+    Line-height: 100%;
+  }
+  .text {
+    Font-family: 'Roboto';
+    Font-style: Bold;
+    font-size: 14px;
+    Line-height: 16px;
+    Line-height: 100%;
+  }
+}

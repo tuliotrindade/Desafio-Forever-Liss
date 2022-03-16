@@ -5,3 +5,19 @@
   padding-top: 18px;
   padding-bottom: 16px;
 }
+
+@media only screen and (max-width: 425px) {
+  .upperNav {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #F5717F;
+    padding-top: 18px;
+    padding-bottom: 16px;
+    Font-family: 'Roboto';
+    Font-style: Bold;
+    font-size: 14px;
+    Line-height: 16px;
+    Line-height: 100%;
+  }
+}

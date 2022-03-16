@@ -2,14 +2,17 @@ import Logo from '../images/foreverBabyLogo.png';
 import User from '../images/user.png';
 import Cart from '../images/cart.png';
 import { InputGroup, FormControl, Button } from 'react-bootstrap';
-import '../styles/header.css'
+import '../styles/mobileHeader.css'
 
-function Header(){
-	return(
-    <header>
+function MobileHeader() {
+  return(
+    <header className='header'>
       <img src= { Logo } alt="logo"></img>
       <div>
-        <InputGroup className="mb-3">
+        <img src={ User } alt="perfil"/>
+        <img src={ Cart } alt="carrinho"/>
+      </div>
+        <InputGroup className="mb-3 input">
           <FormControl 
             placeholder="Qual o mimo de hoje para o seu anjinho?"
             aria-label="Qual o mimo de hoje para o seu anjinho?"
@@ -17,13 +20,8 @@ function Header(){
           />
           <Button variant="ligth">BUSCAR</Button>
         </InputGroup>
-      </div>
-      <div>
-        <img src={ User } alt="perfil"/>
-        <img src={ Cart } alt="carrinho"/>
-      </div>
     </header>
   )
 }
 
-export default Header;
+export default MobileHeader;

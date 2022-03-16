@@ -1,6 +1,8 @@
+import '../styles/lowerFooter.css'
+
 function LowerFooter() {
   return(
-    <footer>
+    <footer className='lowerFooter'>
       <p>
         2022 www.foreverliss.com.br
         <br/>

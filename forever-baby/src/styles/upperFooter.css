@@ -23,3 +23,22 @@ footer {
 .socialContainer {
   padding-bottom: 32px;
 }
+
+@media only screen and (max-width: 425px) {
+  .lowerNav {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    Font-family: 'Roboto';
+    Font-style: Bold;
+    font-size: 14px;
+    Line-height: 16px;
+    Line-height: 100%;
+  }
+  .title {
+    Font-family: Roboto;
+    Font-style: Bold;
+    Font-size: 16px;
+    Line-height: 19px;
+  }
+}

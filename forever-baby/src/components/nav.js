@@ -13,7 +13,7 @@ function NavDesktop() {
     <nav className='upperNav'>
       {
         navItens.map((item, index) => {
-          return <h4 key={ index }>{ item }</h4>
+          return <p key={ index }>{ item }</p>
         })
       }
     </nav>

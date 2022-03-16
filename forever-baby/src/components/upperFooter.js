@@ -17,7 +17,7 @@ function UpperFooter() {
   ];
   return(
     <footer>
-      <h3>VISITE NOSSAS REDES SOCIAIS</h3>
+      <p className='title'>VISITE NOSSAS REDES SOCIAIS</p>
       <div className='socialContainer'>
         <a href='https://www.instagram.com/foreverliss/'>
           <img className='social' src={ Instagram } alt="instagram"/>
@@ -35,11 +35,11 @@ function UpperFooter() {
       <nav className='lowerNav'>
         {
           navItens.map((item, index) => {
-            return <h4 key={index}>{item}</h4>
+            return <p key={index}>  {item}  </p>
           })
         }
       </nav>
-      <h3>FORMAS DE PAGAMENTO</h3>
+      <p>FORMAS DE PAGAMENTO</p>
       <img src={ Pagamentos } alt="formas de pagamento"/>
     </footer>
   )

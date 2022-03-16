@@ -1,5 +1,4 @@
 import Slider from "react-slick";
-import Logo from '../images/foreverBabyLogo.png';
 import '../styles/carosel.css'
 import Cards from "./card";
 import Bebe from "../images/bebe.jpg";
@@ -11,8 +10,18 @@ function Carosel() {
       speed: 500,
       slidesToShow: 4,
       slidesToScroll: 4,
-      rows: 2
-  };
+      rows: 2,
+      responsive: [
+        {
+          breakpoint: 426,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            rows: 2
+          }
+        }
+      ]
+  }
   const data = [
     { title: "Produtos para banho", price: "99,99", img: Bebe },
     { title: "Fralda", price: "99,99", img: Bebe },

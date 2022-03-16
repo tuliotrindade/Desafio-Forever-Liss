@@ -3,8 +3,8 @@ import '../styles/newsLetter.css'
 function NewsLetter() {
   return(
     <div className='newsLetter'>
-      <h3>NEWSLETTER FOREVER BABY</h3>
-      <h5>Cadastre-se agora para não perder nenhuma promoção</h5>
+      <p className='title'>NEWSLETTER FOREVER BABY</p>
+      <p className='text'>Cadastre-se agora para não perder nenhuma promoção</p>
       <div>
         <input
           placeholder="Digite aqui seu melhor e-mail"
