@@ -15,7 +15,7 @@ function Header(){
             aria-label="Qual o mimo de hoje para o seu anjinho?"
             aria-describedby="basic-addon1"
           />
-          <Button variant="primary">BUSCAR</Button>
+          <Button variant="ligth">BUSCAR</Button>
         </InputGroup>
       </div>
       <div>

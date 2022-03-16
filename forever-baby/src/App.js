@@ -3,12 +3,14 @@ import NavDesktop from "./components/navDesktop";
 import NewsLetter from "./components/newsLetter";
 import UpperFooter from "./components/upperFooter";
 import LowerFooter from "./components/lowerFooter";
+import Carosel from "./components/carosel";
 
 function App() {
   return (
     <div>
       <Header/>
       <NavDesktop/>
+      <Carosel/>
       <NewsLetter/>
       <UpperFooter/>
       <LowerFooter/>
