@@ -1,7 +1,8 @@
+import React from "react";
 import Slider from "react-slick";
-import '../styles/carosel.css'
+import "../styles/carosel.css"
 import Cards from "./card";
-import Bebe from "../images/bebe.jpg";
+import data from "../data.js"
 
 function Carosel() {
   const settings = {
@@ -13,7 +14,7 @@ function Carosel() {
       rows: 2,
       responsive: [
         {
-          breakpoint: 426,
+          breakpoint: 900,
           settings: {
             slidesToShow: 2,
             slidesToScroll: 2,
@@ -22,25 +23,12 @@ function Carosel() {
         }
       ]
   }
-  const data = [
-    { title: "Produtos para banho", price: "99,99", img: Bebe },
-    { title: "Fralda", price: "99,99", img: Bebe },
-    { title: "Produto para cabelo", price: "99,99", img: Bebe },
-    { title: "Roupas", price: "99,99", img: Bebe },
-    { title: "Produto para cabelo", price: "99,99", img: Bebe },
-    { title: "Roupas", price: "99,99", img: Bebe },
-    { title: "Produtos para banho", price: "99,99", img: Bebe },
-    { title: "Fralda", price: "99,99", img: Bebe },
-    { title: "Produto para cabelo", price: "99,99", img: Bebe },
-    { title: "Roupas", price: "99,99", img: Bebe },
-    { title: "Produto para cabelo", price: "99,99", img: Bebe },
-    { title: "Roupas", price: "99,99", img: Bebe }
-  ];
+  ;
   return (
     <div className="carosel">
       <link rel="stylesheet" type="text/css" charSet="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
 			<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
-      <h2>FOREVER BABY DESTAQUES</h2>
+      <p className='text1'>FOREVER BABY&nbsp; <p className='text2'>DESTAQUES</p></p>
         <Slider {...settings}>
           {
             data.map(({ title, price, img }, index) => {

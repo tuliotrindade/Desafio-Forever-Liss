@@ -1,3 +1,4 @@
+import React from 'react';
 import Instagram from '../images/instagram.png';
 import Facebook from '../images/facebook.png';
 import Youtube from '../images/youtube.png';

@@ -4,20 +4,41 @@
   background-color: #F5717F;
   padding-top: 18px;
   padding-bottom: 16px;
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-style: bold;
+  font-size: 14px;
+  line-height: 16px;
+  line-height: 100%;
+  color: #FFFFFF
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 900px) {
   .upperNav {
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-direction: column;
     background-color: #F5717F;
-    padding-top: 18px;
-    padding-bottom: 16px;
-    Font-family: 'Roboto';
-    Font-style: Bold;
+    font-family: 'Roboto';
+    font-style: Bold;
     font-size: 14px;
-    Line-height: 16px;
-    Line-height: 100%;
+    line-height: 16px;
+    line-height: 100%;
+    color: #FFFFFF;
+    width: 35vh;
+    max-width: 50vW;
+    margin-right: 70vw;
+    text-align: center;
+    z-index: 1;
+  }
+  .navElement {
+    background-color: #BF6B84;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+  .inputContainer {
+    min-width: 90vw;
   }
 }

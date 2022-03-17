@@ -1,7 +1,58 @@
-header {
+.desktopHeader {
 	display: flex;
   justify-content: space-around;
-  align-content: stretch;
+  align-content: center;
   align-items: center;
 	background-color: #F7B094;
+}
+.inputContainer {
+  width: 55vw;
+}
+.input {
+  background-color: #fff;
+  top: 8px;
+  border-radius: 5px;
+}
+#button-addon2 {
+  border: 1px solid #ced4da;
+  border-left: none;
+  text-decoration-color: #345C7D;
+  color: #345C7D;
+  font-family: 'Roboto';
+  font-style: Bold;
+  font-size: 14px;
+  line-height: 16px;
+  line-height: 100%;
+}
+.profileCartContainer {
+  display: flex;
+  align-items: center;
+}
+.icons {
+  width: 42px;
+  height: 41px;
+  padding-bottom: 3px;
+}
+.text {
+  font-family: 'Roboto';
+  font-style: Bold;
+  font-size: 10px;
+  Line-height: 12px;
+  Line-height: 100%;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-align: center;
+}
+
+.linksContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 15vh;
+  align-self: center;
+}
+
+.logo {
+  width: 160px;
+  height: 85px;
 }

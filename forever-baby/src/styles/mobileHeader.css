@@ -6,7 +6,12 @@
 	background-color: #F7B094;
   width: 100vw;
 };
+
 .input {
   align-items: center;
   width: 100vw;
-}
+};
+.logo {
+  width: 84px;
+  height: 45px;
+};

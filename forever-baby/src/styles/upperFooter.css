@@ -12,10 +12,10 @@ footer {
   display: flex;
   justify-content: space-around;
   padding-bottom: 32px;
+  color: #345C7D;
 }
 
 .social {
-  background-color: #F5717F;
   width: 50px;
   border-radius: 50%;
 }
@@ -24,7 +24,7 @@ footer {
   padding-bottom: 32px;
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 900px) {
   .lowerNav {
     display: flex;
     justify-content: space-around;

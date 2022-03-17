@@ -1,3 +1,4 @@
+import React from 'react';
 import '../styles/navDesktop.css'
 
 function NavDesktop() {
@@ -13,7 +14,16 @@ function NavDesktop() {
     <nav className='upperNav'>
       {
         navItens.map((item, index) => {
-          return <p key={ index }>{ item }</p>
+          return( 
+            <a 
+              href='/'
+              key={ index }
+              style={{ textDecoration: "none", color: "#FFFFFF" }}
+              className='navElement'
+            >
+              { item }
+            </a>
+          )
         })
       }
     </nav>
