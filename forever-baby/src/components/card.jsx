@@ -73,7 +73,7 @@ function Cards({title, price, img}) {
             lineHeight: "16px",
             margin: "0px",
           }}  
-        >ADCIONAR AO CARRINHO</p>
+        > ADCIONAR AO CARRINHO </p>
       </Button>
     </Card.Body>
     </Card>
